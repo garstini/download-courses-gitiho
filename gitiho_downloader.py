@@ -38,7 +38,7 @@ class DownloadApp(QWidget):
         self.usernameEdit.setText('bichthuy@tranghuylogistics.com')
         self.passwordEdit = QLineEdit(self.loginWidget)
         self.passwordEdit.setEchoMode(QLineEdit.EchoMode.Password)
-        self.passwordEdit.setText("123456x")
+        self.passwordEdit.setText("")
         self.loginButton = QPushButton("Đăng nhập", self.loginWidget)
 
         self.loginButton.clicked.connect(self.login)
